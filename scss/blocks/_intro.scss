@@ -1,0 +1,66 @@
+.intro {
+    padding: 159px 0;
+    background: linear-gradient(to left bottom, #1a2066, #000000, #0095ff);
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__title {
+        font-size: 80px;
+        font-weight: 600;
+        margin-bottom: 50px;
+        width: 650px;
+        line-height: 1.2;
+        color: $white;
+
+        span {
+            color: $coral;
+        }
+    }
+
+    &__italic {
+        width: 440px;
+        font-style: italic;
+        color: $pink;
+        opacity: 0.5;
+    }
+
+    &__right-text {
+        width: 440px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        color: #a1a3a8;;
+    }
+
+
+    &__right {
+
+        hr {
+            width: 60px;
+            height: 4px;
+            background-color: $coral;
+            border: none;
+            margin-bottom: 85px;
+        }
+    }
+
+    &__social {
+        margin-top: 50px;
+
+    }
+
+    &__social-icons {
+        margin-right: 15px;
+        color: $white;
+        transition: 0.2s ease;
+    }
+
+    &__social-icons:hover {
+        color: $pink
+    }
+}

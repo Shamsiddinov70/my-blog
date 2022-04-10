@@ -7,6 +7,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,7 +16,6 @@ body {
   margin: 0;
   font-family: 'Public Sans';
   line-height: 1.5;
-  color: #fff;
 }
 
 img {
