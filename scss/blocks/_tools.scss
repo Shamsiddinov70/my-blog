@@ -1,5 +1,5 @@
 .tools {
-    background-color: #003052;
+    background-color: $tools-color;
     padding: 100px 0;
 
     // &__container {
@@ -24,7 +24,7 @@
     }
 
     &__name {
-        color: $black;
+        color: $white;
         font-size: 25px;
         width: 235px;
         text-align: center;
@@ -35,7 +35,7 @@
         box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.3);
         border-radius: 5px;
         padding: 24px 58px;
-        background: #FFFFFF;
+        background: $tools-color;
         width: 350px;
         margin-left: 25px;
         margin-right: 25px;
