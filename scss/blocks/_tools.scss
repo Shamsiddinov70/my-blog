@@ -65,6 +65,14 @@
     .tools__title {
         font-size: 50px;
     }
+
+    .tools__item:hover {
+        transform: none;
+    }
+
+    // .tools__item:hover .tools__logo {
+    //     transform: none;
+    // }
 }
 
 //Breakpoint 350px
